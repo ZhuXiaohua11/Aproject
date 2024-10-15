@@ -9,7 +9,7 @@ def läs_kommuneskattable_nr (filnamn):
     return kommunskattable
 filnamn=r"C:\Users\riddl\Desktop\python lektion\python\kommun_skatt_nr.csv"
 kommunskatttable=läs_kommuneskattable_nr(filnamn)
-
+#ändring fil
 def läs_skattetable (filnamnskatt):
     skattetable=[]
     with open (filnamnskatt, mode = 'r', encoding= "ISO-8859-1") as file:
