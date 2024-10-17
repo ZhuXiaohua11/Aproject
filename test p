@@ -1,0 +1,8 @@
+namn=input("ditt namn?")
+anställd_nr=input("ditt anställd nr?")
+kommunnamn=input("ditt kommun?")
+svar=str(input("är du månadsanställd? svara ja om du är. nej om du är timanställd"))
+if svar.lower()=="ja":
+    Månadsanställd=input("din månadslön?")
+else:
+    Timanställd=input("din timlön?")
